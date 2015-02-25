@@ -16,10 +16,20 @@ import javax.enterprise.context.Dependent;
 @Dependent
 public class NewJSFManagedBean {
 
+    private String text; 
     /**
      * Creates a new instance of NewJSFManagedBean
      */
     public NewJSFManagedBean() {
     }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+    
     
 }
