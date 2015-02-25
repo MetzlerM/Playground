@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Reihe 1</th>
+                    <th>Reihe 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bla Bla</td>
+                    <td><ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bla 1</td>
+                    <td>Bla 2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="siteloader"></div>​
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script>
+            $(function(){
+                $('#siteloader').load('http://localhost:8080/WebApp02/faces/test/meter.xhtml');
+            });
+        </script>
+        
+    </body>
+</html>
